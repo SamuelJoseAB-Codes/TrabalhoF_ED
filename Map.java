@@ -19,7 +19,7 @@ public class Map extends JFrame {
         addComponentListener(new ComponentAdapter() {
             @Override
             public void componentResized(ComponentEvent e) {
-                loadImageFromDirectory("C:\\Users\\samue\\eclipse-workspace\\Jarvis\\owfuck\\src\\owfuck");
+                loadImageFromDirectory("C:\\Users\\samue\\bug\\RPG_Dimmy");
             }
         });
     }
