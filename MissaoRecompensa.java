@@ -49,5 +49,42 @@ public class MissaoRecompensa{
         this.recompensas = recompensas;
     }
             
+    public void receberLuvasDoPoder(String cidadeDestino) {
+        if (verificarConexao(cidadeAtual, cidadeDestino)) {
+            if (cidadeAtual.equals(cidadeDestino)) {
+                pesoPedra += 4;
+                limiarPoderJóia += 2;
+            } else {
+                System.out.println("Você ainda não chegou à cidade de destino.");
+            }
+        } else {
+            System.out.println("Não é possível receber as luvas do poder. Cidades não conectadas.");
+        }
+    }
 
+    public void receberBotasDoPoder(String cidadeDestino) {
+        if (verificarConexao(cidadeAtual, cidadeDestino)) {
+            if (cidadeAtual.equals(cidadeDestino)) {
+                pesoPedra += 6;
+                limiarPoderJóia += 1;
+            } else {
+                System.out.println("Você ainda não chegou à cidade de destino.");
+            }
+        } else {
+            System.out.println("Não é possível receber as botas do poder. Cidades não conectadas.");
+        }
+    }
+
+    public void receberGlóriaDosRetornados(String cidadeDestino) {
+        if (verificarConexao(cidadeAtual, cidadeDestino)) {
+            if (cidadeAtual.equals(cidadeDestino)) {
+                pesoPedra += 1;
+                limiarPoderJóia -= 4;
+            } else {
+                System.out.println("Você ainda não chegou à cidade de destino.");
+            }
+        } else {
+            System.out.println("Não é possível receber a Glória dos Retornados. Cidades não conectadas.");
+        }
+    }
 }   
