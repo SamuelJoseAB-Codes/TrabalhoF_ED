@@ -7,13 +7,13 @@ public class Mercador {
         System.out.println("Quantas moedas de transporte você tem?");
         int numMoedas = scanner.nextInt();
         
-        System.out.println("Distância é menor que 3? (Responda com 'sim' ou 'não')");
-        boolean distanciaMenorQue3 = scanner.next().equalsIgnoreCase("sim");
+        System.out.println("De onde você vem para onde você vai?");
+        String destino =scanner.next();
         
         System.out.println("Deseja trocar suas moedas por limiar na jóia? (Responda com 'sim' ou 'não')");
         boolean trocarMoedasPorLimiar = scanner.next().equalsIgnoreCase("sim");
         
-        int recompensa = calcularRecompensa(numMoedas, distanciaMenorQue3, trocarMoedasPorLimiar);
+        int recompensa = calcularRecompensa(numMoedas, trocarMoedasPorLimiar);
         System.out.println("Recompensa: " + recompensa + " moedas");
 
         scanner.close();
