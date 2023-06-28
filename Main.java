@@ -1,7 +1,7 @@
 import javax.swing.SwingUtilities;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args){    //Inicia a classe Map.java, que abre uma janela com o mapa-múndi
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 new Map();
@@ -38,7 +38,7 @@ public class Main {
         City cidade16 = new City("Principality of Kasya");
         City cidade17 = new City("Nargumun");
 
-        Graph grafo = new Graph();
+        Graph grafo = new Graph(); //Inicia o grafo
 
         grafo.insertVertice(ubud);
         grafo.insertVertice(cidade2);
