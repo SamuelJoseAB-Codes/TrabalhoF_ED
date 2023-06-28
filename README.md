@@ -1,5 +1,8 @@
 # TrabalhoF_ED
-#1.RESUMO : Criação de um jogo, no qual o objetivo é fazer com que o protagonista  conclua o seu percurso da melhor maneira possível, ou melhor, conseguir uma pontuação alta ,sendo essa pontuação baseando-se no sistema de missões e recompensa. Além disso, deve-se implementar também consequências para o jogador, influenciando diretamente na gameplay, caso ele não consiga atingir a  pontuação. Para isso, as classes do código precisam ter uma relação entre si, funcionando em conjunto. Ou seja, um jogo simples e fácil de jogar e entender. 
+#1.RESUMO : 
+1.1 Objetivo: Criação de um jogo, no qual o objetivo é fazer com que o protagonista  conclua o seu percurso da melhor maneira possível, ou melhor, conseguir uma pontuação alta ,sendo essa pontuação baseando-se no sistema de missões e recompensa. Além disso, deve-se implementar também consequências para o jogador, influenciando diretamente na gameplay, caso ele não consiga atingir a  pontuação. Para isso, as classes do código precisam ter uma relação entre si, funcionando em conjunto. Ou seja, um jogo simples e fácil de jogar e entender. 
+1.2 Metodologia: Dividir e conquistar, selecionamos cada qual um certo número de classes para fzer seus métodos, objetos,etc. Na Linguagem Java, usamos a IDE Vs Code em conjunto com o GitHub.
+1.3 Resultados: Aprendemos um pouco mais sobre grafos e blibliotecas, além de ver as classes funcionando normalmente, mas o maior desafio foi no grafos, e métodos específicos para integrar os grafos ao mercador.
 
 #2.INTRODUÇÃO : Criação de um jogo utilizando Java para que além de buscar uma boa nota, poder aprender(nem que seja pela pressão) sobre a linguagem de programação. 
 
