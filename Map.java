@@ -1,12 +1,13 @@
 import javax.swing.*;
 import java.awt.*;
 
+//Mostra O Mapa-Múndi em uma Aba
 public class Map extends JFrame {
     public Map() {
         setTitle("Exibindo Imagem");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        ImageIcon icon = new ImageIcon(getClass().getResource("/resources/Mapa.jpg")); // substitua "sua_imagem.jpg" pelo nome da sua imagem
+        ImageIcon icon = new ImageIcon(getClass().getResource("/resources/Mapa.jpg")); // Caminho da imagem do Mapa.jpg
 
         JLabel label = new JLabel();
         label.setIcon(icon);
@@ -16,11 +17,4 @@ public class Map extends JFrame {
         setVisible(true);
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                new Map();
-            }
-        });
-    }
 }
