@@ -9,6 +9,7 @@
 #3.DESCRIÇÃO DO PROJETO : Fazer um jogo utilizando a linguagem Java de programação, organizado em classes que interagem entre si, com seus métodos. Utilizamos as bibliotecas(Java.Util,Javax, incluindo Grafos). Os requisitos consistem em : jogo simples e direto, com decisões que o jogador  toma, tendo recompensas ou prejuízos. Sua funcionalidade é baseada em ver o progresso da jóia; qual cidade você vai e vem; moedas que possui; poder ver o mapa-Múndi. 
 
 #4.DESCRIÇÃO DA EQUIPE: Equipe composta por 3 membros: Samir(responsável por fazer o sistema de recompensas, quests, joias  e moedas e o relatório), Marcus(responsável pelos vértices e grafos e relatório) e Samuel José( Responsável pelo mercador, exibição do mapa, relatório e história do jogo). 
+OBS: Samir não estava conseguindo dar commit;
 
 #5.METODOLOGIA: Adotamos o método de dividir para conquistar, dividimos funções para cada um( Cada um fez um conjunto de classes separada que se comunicariam entre si), e se havia dúvida por parte do código do outro, havia conversa entre os integrantes. 
 
