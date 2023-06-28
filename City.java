@@ -1,5 +1,3 @@
-
-
 public class City {
     String name;
     LimiarPedra pesoPedra;

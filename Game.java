@@ -1,4 +1,3 @@
-
 public class Game {
     int moedasDTranporte = 3;
     String Maxwell;
