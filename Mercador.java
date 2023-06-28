@@ -1,4 +1,4 @@
-package src.jogo;
+
 import java.util.Scanner;
 
 public class Mercador {

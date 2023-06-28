@@ -1,4 +1,3 @@
-package src.jogo;
 public class LimiarPedra{
     int pesoPedra;
 

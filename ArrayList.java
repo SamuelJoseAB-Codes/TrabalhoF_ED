@@ -1,5 +1,3 @@
-package src.jogo;
-
 public class ArrayList<T> {
     
     // atributos da classe;

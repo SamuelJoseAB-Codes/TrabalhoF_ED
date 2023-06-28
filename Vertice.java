@@ -1,8 +1,3 @@
-package src.jogo;
-
-;
-
-
 public class Vertice {
 
     // atributos e listas da classe;

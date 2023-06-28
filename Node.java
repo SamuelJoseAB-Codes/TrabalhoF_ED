@@ -1,5 +1,3 @@
-package src.jogo;
-
 public class Node<T> {
     
     // atributos da classe;
