@@ -1,8 +1,10 @@
+package src.jogo;
 import java.util.ArrayList;
 import java.util.List;
 
 
 public class MissaoRecompensa{
+    private Boolean quest;
     private String nomeMissao;
     private int nivelMissao;
     private List<String> drops;
